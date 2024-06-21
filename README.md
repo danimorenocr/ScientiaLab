@@ -1,50 +1,35 @@
 # ScientiaLab 📦🎓
 
-## Descripción del Proyecto
-Bienvenido a **ScientiaLab**, un sistema de inventario desarrollado en **Java** utilizando **Ant** y **MySQL**. Este sistema está diseñado específicamente para laboratorios, 
-permitiendo un seguimiento preciso de los materiales y equipos. Además, incluye una característica especial que permite gestionar préstamos a grupos de estudiantes y exportar toda la información
-necesaria a archivos Excel.
+## Project Description
+Welcome to **ScientiaLab**, an inventory management system developed in **Java** using **Ant** and **MySQL**. This system is specifically designed for laboratories, allowing precise tracking of materials and equipment. Additionally, it includes a special feature that allows managing loans to student groups and exporting all necessary information to Excel files.
 
-## Características Principales
-- 📋 **Gestión de Inventario**: Agregar, editar, eliminar y buscar elementos en el inventario del laboratorio.
-- 🎓 **Sistema de Préstamos**: Registro y seguimiento de préstamos de equipos y materiales a grupos de estudiantes.
-- 📊 **Exportación a Excel**: Descargar la información de inventario y préstamos en formato Excel para un fácil manejo y análisis de datos.
+## Main Features
+- 📋 **Inventory Management**: Easily add, edit, delete, and search items in the laboratory inventory.
+- 🎓 **Loan System**: Seamlessly record and track loans of equipment and materials to student groups.
+- 📊 **Excel Export**: Effortlessly download inventory and loan information in Excel format for easy data handling and analysis.
 
-## Tecnologías Utilizadas
-- ☕ **Java**: Lenguaje de programación principal.
-- 🐜 **Ant**: Herramienta de construcción para automatizar el proceso de compilación.
-- 🗄️ **MySQL**: Sistema de gestión de bases de datos.
+## Technologies Used
+- ☕ **Java**: The main programming language ensuring robust performance.
+- 🐜 **Ant**: Build tool for automating the compilation process.
+- 🗄️ **MySQL**: Reliable database management system for storing and managing data.
 
+## Installation and Configuration
+### Prerequisites
+- 🛠️ **JDK (Java Development Kit)**
+- 🐜 **Apache Ant**
+- 🗄️ **MySQL**
+- 🔗 **MySQL Connector for Java (MySQL Connector/J)**
 
-## Instalación y Configuración
-### Prerrequisitos
-- JDK (Java Development Kit)
-- Apache Ant
-- MySQL
-- Conector MySQL para Java (MySQL Connector/J)
+## Application Usage
 
-# Uso de la Aplicación
+### Inventory Management
+- **Add Item**: ➕ Add new items to the inventory with details such as name, description, quantity, etc.
+- **Search Item**: 🔍 Search for specific items in the inventory using various criteria.
+- **Edit and Delete**: ✏️🗑️ Modify or delete existing items in the inventory.
 
-## Gestión de Inventario
+### Loan System
+- **Register Loan**: 📝 Register new loans to student groups, including details such as date, group, items loaned, etc.
+- **Manage Returns**: 🔄 Handle the return of loaned items and update the inventory accordingly.
 
-### Agregar Elemento
-Añadir nuevos elementos al inventario con detalles como nombre, descripción, cantidad, etc.
-
-### Buscar Elemento
-Buscar elementos específicos en el inventario utilizando varios criterios.
-
-### Editar y Eliminar
-Modificar o eliminar elementos existentes del inventario.
-
-## Sistema de Préstamos
-
-### Registrar Préstamo
-Registrar nuevos préstamos a grupos de estudiantes, incluyendo detalles como fecha, grupo, elementos prestados, etc.
-
-
-## Exportación a Excel
-
-### Exportar Datos
-Descargar la información de inventario y préstamos en un archivo Excel para su análisis y reporte.
-
-
+### Excel Export
+- **Export Data**: 📤 Download inventory and loan information in an Excel file for analysis and reporting.
